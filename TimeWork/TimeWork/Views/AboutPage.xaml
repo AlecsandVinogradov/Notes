@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TimeWork.Views.AboutPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label  
+                Margin="10"
+                    VerticalOptions="Center" 
+                    HorizontalOptions="Center"
+                    Text="Удобный блокнот позволяет"></Label>
+            <Label
+                  FontSize="Medium"
+                   Margin="10,0,10,10"
+                VerticalOptions="Start" 
+                HorizontalOptions="Start">
+                <Label.FormattedText>
+                    <FormattedString>
+                        <Span Text="1." TextDecorations="Underline" ForegroundColor="Coral" />
+                        <Span Text="Сохранить и Удалить заметки.&#10;"></Span>
+                        <Span Text="2." TextDecorations="Underline" ForegroundColor="Coral" />
+                        <Span Text="Редактировать существующие заметки.&#10;"></Span>
+                        <Span Text="3." TextDecorations="Underline" ForegroundColor="Coral" />
+                        <Span Text="Добавлять новые заметки.&#10;"></Span>
+                    </FormattedString>
+                </Label.FormattedText>
+            </Label>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
